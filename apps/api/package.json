@@ -5,7 +5,7 @@
     "main": "dist/server.js",
     "scripts": {
         "dev": "tsx watch src/server.ts",
-        "build": "tsc",
+        "build": "npx esbuild src/server.ts --bundle --platform=node --outdir=dist --format=cjs --external:bcryptjs --external:mongoose --external:socket.io --external:ioredis --external:bull --external:winston --external:zod --external:cors --external:express --external:jsonwebtoken --external:dotenv --external:rate-limiter-flexible --external:uuid",
         "start": "node dist/server.js",
         "test": "jest --passWithNoTests"
     },
