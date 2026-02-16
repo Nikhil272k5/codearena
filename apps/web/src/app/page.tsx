@@ -75,7 +75,7 @@ export default function Home() {
                             <span className="inline-block ml-2 group-hover:translate-x-1 transition-transform">→</span>
                         </Link>
                         <Link
-                            href="/dashboard/leaderboard"
+                            href="/leaderboard"
                             className="px-8 py-4 glass rounded-xl font-semibold text-lg text-gray-300 hover:text-white hover:border-arena-accent/30 transition-all"
                         >
                             View Leaderboard

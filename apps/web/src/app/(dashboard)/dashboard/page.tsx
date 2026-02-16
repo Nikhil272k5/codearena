@@ -102,14 +102,14 @@ export default function DashboardPage() {
                         <div className="absolute -bottom-4 -right-4 w-24 h-24 rounded-full bg-arena-accent/5 group-hover:bg-arena-accent/10 transition" />
                     </button>
 
-                    <Link href="/dashboard/guilds" className="group relative overflow-hidden rounded-xl p-6 bg-gradient-to-br from-purple-500/20 to-pink-500/20 border border-purple-500/30 hover:border-purple-500/60 transition-all duration-300 hover:-translate-y-0.5 text-left">
+                    <Link href="/guilds" className="group relative overflow-hidden rounded-xl p-6 bg-gradient-to-br from-purple-500/20 to-pink-500/20 border border-purple-500/30 hover:border-purple-500/60 transition-all duration-300 hover:-translate-y-0.5 text-left">
                         <div className="text-2xl mb-3">🏰</div>
                         <h3 className="text-lg font-bold text-white mb-1">Join a Guild</h3>
                         <p className="text-sm text-gray-400">Connect with fellow competitors</p>
                         <div className="absolute -bottom-4 -right-4 w-24 h-24 rounded-full bg-purple-500/5 group-hover:bg-purple-500/10 transition" />
                     </Link>
 
-                    <Link href="/dashboard/leaderboard" className="group relative overflow-hidden rounded-xl p-6 bg-gradient-to-br from-yellow-500/20 to-orange-500/20 border border-yellow-500/30 hover:border-yellow-500/60 transition-all duration-300 hover:-translate-y-0.5 text-left">
+                    <Link href="/leaderboard" className="group relative overflow-hidden rounded-xl p-6 bg-gradient-to-br from-yellow-500/20 to-orange-500/20 border border-yellow-500/30 hover:border-yellow-500/60 transition-all duration-300 hover:-translate-y-0.5 text-left">
                         <div className="text-2xl mb-3">🏆</div>
                         <h3 className="text-lg font-bold text-white mb-1">Leaderboard</h3>
                         <p className="text-sm text-gray-400">See where you rank globally</p>
